@@ -133,6 +133,7 @@ header {
   display: flex;
   height: 650px;
   background-color:#aaba88;
+  overflow: hidden;
 
 }
 
@@ -140,7 +141,7 @@ header {
   display: flex;
   background-color:transparent;
   flex-wrap: wrap;
-
+  
   gap:30px;
   width: 100%;
   justify-content: center;
@@ -164,6 +165,7 @@ header {
  
 }
 
+
 .Form1{
   margin-top:20px;
   margin-left:150px;
@@ -186,8 +188,6 @@ header {
  padding-top: 10px;
  font-size: 16px;
  cursor:pointer;
-
-
 }
 
 .Form1 ul{
@@ -199,3 +199,90 @@ header {
   font-weight:normal;
   margin-top:0px;
 }
+
+
+
+/*Secció Just In!*/
+
+
+
+.Justin {
+   background-color:#c8daa3;
+   display: flex;
+   height: 620px;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom:5px;
+   gap:20px;
+ 
+}
+
+.Justin h2 {
+margin-bottom:10px;
+font-size: 35px;
+font-weight: normal;
+}
+
+.Justin h5 {
+
+margin-top:3px;
+margin-bottom: 1px;
+}
+
+/* Flexboc Just In */
+
+.PareJustin{
+  display: flex;
+  background-color:transparent;
+  padding:10px;
+  margin-top:0px;
+  gap: 60px;
+  
+}
+
+.FillJustin {
+  display:flex;
+  background-color:#96a478 ;
+  height:420px;
+  width:400px;
+  position:relative;
+  
+  
+}
+
+/* Just In Flexbox */
+
+.Cercle {
+  height:100px;
+  width:100px;
+  background-color:#c3df8a;
+  border-radius: 50%;
+  align-content: center;
+  margin-right:85px;
+  padding-left:15px;
+  margin-top:5px;
+  position: absolute;
+}
+
+
+
+.CocoCave{
+  list-style-type: none;
+  margin-top: 15px;
+}
+
+
+
+.CocoCave img{
+  margin:10px;
+  margin-left:10px;
+}
+
+.CocoCave button {
+  padding: 15px 45px;
+  font-size: 15px;
+  color: white;
+  cursor:pointer;
+  background-color: darkgreen;
+}
+
