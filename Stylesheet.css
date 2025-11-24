@@ -31,7 +31,7 @@ header {
   padding: 2px;
   padding-bottom: 20px;
   height: 50px;
-  postion: fixed;
+  
   
 }
 
@@ -40,8 +40,6 @@ header {
   padding: 5px;
  
 }
-
-
 
 .nav ul {
   list-style-type: none;
@@ -59,8 +57,10 @@ header {
   margin-inline: 40px;
 }
 
+
+
 .nav li a{
-  dispaly: block;
+  display: block;
   text-align: center;
   padding: 3px;
   text-decoration: none;
@@ -68,5 +68,430 @@ header {
 }  
 
 .nav button {
-  margin-left:900px;
+ display: flex;
+ align-itmes: center;
+ background-color: transparent;
+ width: 180px;
+}
+
+
+
+.welcome {
+  background-color:#8f9d72;
+  gap: 40px;
+  display:flex;
+  max-width: 100%;
+  height: 400px;
+  padding:0;
+  align-items: stretch;
+
+}
+
+.welcome img {
+  padding:0;
+  margin:0;
+  height: 400px;
+  
+  display:block;
+
+}
+.welcome h1 {
+  font-size: 35px;
+  letter-spacing: 2px;
+  margin-bottom:0;
+}
+
+.welcome ul {
+  list-style-type: none;
+  padding:0;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  overflow:hidden;
+}
+
+.welcome button {
+  padding: 15px 45px;
+  font-size: 15px;
+  color: white;
+  cursor:pointer;
+  background-color: darkgreen;
+}
+
+.welcome p {
+  margin:0;
+  line-height:1.3;
+  font-size: 20px;
+  padding:0;
+
+}
+
+/*Secció ranes img i formulari */
+
+
+.seccio2 {
+  display: flex;
+  height: 650px;
+  background-color:#aaba88;
+  overflow: hidden;
+
+}
+
+.PareRanes {
+  display: flex;
+  background-color:transparent;
+  flex-wrap: wrap;
+  
+  gap:30px;
+  width: 100%;
+  justify-content: center;
+  margin-right: 10px;
+  list-style-type: none;
+}
+
+
+.FillRana1 {
+  flex-basis:calc(50% - 40px);
+  height:300px;
+  order: 1;
+ 
+}
+
+.FillRana2 {
+  flex-basis:calc(50% - 40px);
+  height:300px;
+  order:2;
+
+ 
+}
+
+
+.Form1{
+  margin-top:20px;
+  margin-left:150px;
+  margin-right:100px;
+  background-color: #c8daa3;
+  width:700px;
+  height: 500px;
+  align-content: center;
+}
+
+.Form1 button{
+ display: flex;
+ align-itmes: center;
+ background-color: transparent;
+ width: 250px;
+ height: 50px;
+ margin-bottom:40px;
+ margin-top:15px;
+ margin-left:50px;
+ padding-top: 10px;
+ font-size: 16px;
+ cursor:pointer;
+}
+
+.Form1 ul{
+  font-size:20px;
+  margin-top:0px;
+}
+
+.Form1 h5{
+  font-weight:normal;
+  margin-top:0px;
+}
+
+
+
+/*Secció Just In!*/
+
+
+
+.Justin {
+   background-color:#c8daa3;
+   display: flex;
+   height: 620px;
+   flex-direction: column;
+   align-items: center;
+   
+   gap:20px;
+ 
+}
+
+.Justin h2 {
+margin-bottom:10px;
+font-size: 35px;
+font-weight: normal;
+}
+
+.Justin h5 {
+
+margin-top:3px;
+margin-bottom: 1px;
+}
+
+/* Flexboc Just In */
+
+.PareJustin{
+  display: flex;
+  background-color:transparent;
+  padding:10px;
+  margin-top:0px;
+  gap: 60px;
+  
+}
+
+.FillJustin {
+  display:flex;
+  background-color:#96a478 ;
+  height:420px;
+  width:400px;
+  position:relative;
+  
+  
+}
+
+/* Just In Flexbox */
+
+.Cercle {
+  height:100px;
+  width:100px;
+  background-color:#c3df8a;
+  border-radius: 50%;
+  align-content: center;
+  margin-right:85px;
+  padding-left:15px;
+  margin-top:5px;
+  position: absolute;
+}
+
+
+
+.CocoCave{
+  list-style-type: none;
+  margin-top: 15px;
+}
+
+
+
+.CocoCave img{
+  margin:10px;
+  margin-left:10px;
+}
+
+.CocoCave button {
+  padding: 15px 45px;
+  font-size: 15px;
+  color: white;
+  cursor:pointer;
+  background-color: darkgreen;
+}
+
+/*Love our Tea*/
+
+
+
+.LoveTea {
+   background-color:#96a478;
+   display: flex;
+   height: 670px;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom:5px;
+   gap:20px;
+
+ 
+}
+
+.PareTea{
+  display: flex;
+  background-color:transparent;
+  padding:10px;
+  margin-top:0px;
+  gap: 160px;
+  list-style-type: none;
+}
+
+.PareTea2{
+  display: flex;
+  background-color:transparent;
+  padding:10px;
+  margin-top:0px;
+  gap: 160px;
+  list-style-type: none;
+}
+
+
+
+
+.FillTea2 {
+
+  display: flex;
+  width: 300px;
+  height: 50px;
+  background-color:#c3df8a ;
+  align-items: center;
+ 
+}
+
+.FillTea2 p {
+  margin-left:75px;
+
+}
+
+.LoveTea button {
+  padding: 15px 45px;
+  font-size: 15px;
+  color: white;
+  cursor:pointer;
+  background-color: darkgreen;
+}
+
+.LoveTea h4 {
+   cursor:pointer;
+   color:#c3df8a ;
+
+}
+
+
+.BestSellers {
+   background-color:#c3df8a ;
+   height: 750px;
+  
+
+}
+
+/* Contenidor de dues columnes */
+.Try {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: flex-start;
+   width: 100%;
+   gap: 30px;
+   margin-left: 20px;
+   background-color: ;
+   margin-top: 20px;
+   height: auto;
+}
+
+.TextBest {
+   display: flex;
+   flex-direction: column;
+   width: 45%;
+   background-color: ;
+   height: auto;
+   gap:30px;
+}
+
+.Moss {
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   width: 45%;
+   background-color: #c8daa3;
+   height: auto;
+   padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin: 20px auto;
+  border: 1px solid black;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.verd {
+  background-color: #a8bb7f; /* Opcional: color del header o fons */
+}
+
+/* Footer */
+.Peu {
+  background-color: #555;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  padding-top:0px;
+  font-family: Arial;
+}
+
+.left, .center, .right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.logo {
+  display: grid;
+  grid-template-columns: repeat(2, 40px);
+  grid-gap: 10px;
+}
+
+.logo div {
+  background-color: #99c48b;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.center label {
+  color: #cfcfcf;
+  font-size: 14px;
+}
+
+.center input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #888;
+  height: 30px;
+  width: 260px;
+  outline: none;
+  color: white;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+}
+
+.links h4 {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.links p {
+  margin: 3px 0;
+  font-size: 13px;
+  color: #dcdcdc;
+}
+
+.card button {
+  background-color: #777;
+  padding: 12px 30px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.ContainTabFoot{
+  background-color:blue;
+  height: 450px;
+}
+
+.links ul {
+  list-style-type: none;
+}
+
+.Peu ul {
+  list-style-type: none;
 }
