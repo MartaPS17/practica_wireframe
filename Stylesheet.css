@@ -351,3 +351,147 @@ margin-bottom: 1px;
    color:#c3df8a ;
 
 }
+
+
+.BestSellers {
+   background-color:#c3df8a ;
+   height: 750px;
+  
+
+}
+
+/* Contenidor de dues columnes */
+.Try {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: flex-start;
+   width: 100%;
+   gap: 30px;
+   margin-left: 20px;
+   background-color: ;
+   margin-top: 20px;
+   height: auto;
+}
+
+.TextBest {
+   display: flex;
+   flex-direction: column;
+   width: 45%;
+   background-color: ;
+   height: auto;
+   gap:30px;
+}
+
+.Moss {
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   width: 45%;
+   background-color: #c8daa3;
+   height: auto;
+   padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin: 20px auto;
+  border: 1px solid black;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.verd {
+  background-color: #a8bb7f; /* Opcional: color del header o fons */
+}
+
+/* Footer */
+.Peu {
+  background-color: #555;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  padding-top:0px;
+  font-family: Arial;
+}
+
+.left, .center, .right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.logo {
+  display: grid;
+  grid-template-columns: repeat(2, 40px);
+  grid-gap: 10px;
+}
+
+.logo div {
+  background-color: #99c48b;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.center label {
+  color: #cfcfcf;
+  font-size: 14px;
+}
+
+.center input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #888;
+  height: 30px;
+  width: 260px;
+  outline: none;
+  color: white;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+}
+
+.links h4 {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.links p {
+  margin: 3px 0;
+  font-size: 13px;
+  color: #dcdcdc;
+}
+
+.card button {
+  background-color: #777;
+  padding: 12px 30px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.ContainTabFoot{
+  background-color:blue;
+  height: 450px;
+}
+
+.links ul {
+  list-style-type: none;
+}
+
+.Peu ul {
+  list-style-type: none;
+}
